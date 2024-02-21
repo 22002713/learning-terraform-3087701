@@ -19,11 +19,6 @@ type = object({
   }
 }
 
-# Define VPC
-data "aws_vpc" "default" {
-  default = true
-}
-
   variable "environment" {
     description = "Development Environment"
 
